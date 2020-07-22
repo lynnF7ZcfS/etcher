@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+# v1.5.102
+## (2020-07-22)
+
+* Electron 9.1.0 [Alexis Svinartchouk]
+* Remove bluebird from main process, reduce lodash usage [Alexis Svinartchouk]
+* Centralize imports in child-writer [Alexis Svinartchouk]
+* Split main process and child-writer js files [Alexis Svinartchouk]
+* Stop using request, replace it with already used axios [Alexis Svinartchouk]
+* Remove font awesome unused icons from the generated bundle [Alexis Svinartchouk]
+* Remove no longer used .sass-lint.yml [Alexis Svinartchouk]
+* Use tslib [Alexis Svinartchouk]
+* Use strict typescript compiler option [Alexis Svinartchouk]
+* Update rendition to ^16.1.1 [Alexis Svinartchouk]
+
 # v1.5.101
 ## (2020-07-09)
 
